@@ -89,4 +89,7 @@ h2 {
     color: white;
     padding: 15px 50px 15px 50px;
     border-radius:10px;
+    margin:auto;
+    display:block;
 }
+
