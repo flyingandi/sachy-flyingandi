@@ -12,6 +12,11 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
 
 .box {
     border: 30px;
@@ -55,14 +60,33 @@ h1 {
 }
 
 .sachovnice img {
-    width: 620px;
+    width: 650px;
     border: solid #654321 10px;
     margin-left: 10px;
 }
 
 .figurky img {
-    width: 10%;
-    height: auto;
+    width: 40%;
 }
 
+.figurky {
+    display: grid;
+	grid-template-rows: repeat(8, auto);
+    justify-items: center;
+    gap: 0;
+    background-image: url(obrazky/sachovnice.png);}
 
+.figurky #dama-bila {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.knoflik {
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    border-radius:10px;
+}
