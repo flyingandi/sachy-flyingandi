@@ -4,43 +4,65 @@ html { box-sizing: border-box; }
 
 body {
 	font-family: sans-serif;
-
 }
 
 /* ---------------------------------------------------- */
 
-.honza {
-    border: 30px;
-    display: inline;
-    line-height: 1px;
-    padding: 10px;
+h1 {
+    text-align: center;
+    font-size: 40px;
 }
 
-.honza img {
+.box {
+    border: 30px;
+    line-height: 1px;
+    padding: 10px;
+    display: flex;
+    flex: 50%;
+    text-align: left;
+    flex-direction: row;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.box-adela {
+    line-height: 1px;
+    display: flex;
+    flex: 50%;
+    text-align: right;
+    float: right;
+    flex-direction: row;
+    margin: -120px 10px 10px 10px;
+}
+
+.box-adela img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
     float: left;
-    margin: 0 15px 0 0 ;
+    margin: 0px 10px 10px 10px;
 }
 
-.adela {
-    border: 30px;
-    line-height: 1px;
-    padding: 10px;
-    float: right;
+.two {
+    margin-top: 40px;
 }
 
-.adela img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: -85px 300px 0 0 ;
+.sachovnice img {
+    width: 620px;
+    border: solid #654321 10px;
+    margin-left: 10px;
 }
 
-
-
+.figurky img {
+    width: 10%;
+    height: auto;
+}
 
 
