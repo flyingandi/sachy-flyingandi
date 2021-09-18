@@ -1,0 +1,46 @@
+/* intuitivnější box-sizing */
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+	font-family: sans-serif;
+
+}
+
+/* ---------------------------------------------------- */
+
+.honza {
+    border: 30px;
+    display: inline;
+    line-height: 1px;
+    padding: 10px;
+}
+
+.honza img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: left;
+    margin: 0 15px 0 0 ;
+}
+
+.adela {
+    border: 30px;
+    line-height: 1px;
+    padding: 10px;
+    float: right;
+}
+
+.adela img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: -85px 300px 0 0 ;
+}
+
+
+
+
+
