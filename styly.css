@@ -33,7 +33,7 @@ h2 {
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
-    margin: 10px 10px 10px 100px;
+    margin: 10px 20px 10px 320px;
 }
 
 .box-adela {
@@ -43,7 +43,7 @@ h2 {
     text-align: right;
     float: right;
     flex-direction: row;
-    margin: -120px 10px 10px 10px;
+    margin: -120px 230px 10px 10px;
 }
 
 .box-adela img {
@@ -74,10 +74,10 @@ h2 {
 }
 
 .figurky { 
-    background-size: 600px;
+    background-size: contain;
     width: 600px;
     height: 600px;
-    border: 3px solid brown;
+    border: 6px solid #442e19;
     margin: auto;
 }
 
