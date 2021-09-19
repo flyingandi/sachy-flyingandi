@@ -33,7 +33,7 @@ h2 {
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 100px;
 }
 
 .box-adela {
@@ -52,33 +52,96 @@ h2 {
     object-fit: cover;
     border-radius: 10px;
     float: left;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 100px 10px 10px;
 }
 
 .two {
     margin-top: 40px;
 }
 
-.sachovnice img {
-    width: 650px;
-    border: solid #654321 10px;
-    margin-left: 10px;
-}
 
 .figurky img {
-    width: 40%;
+    width: 100%;
 }
 
 .figurky {
     display: grid;
-	grid-template-rows: repeat(8, auto);
+	grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     justify-items: center;
     gap: 0;
-    background-image: url(obrazky/sachovnice.png);}
+    background-image: url(obrazky/sachovnice.png);
+}
+
+.figurky { 
+    background-size: 600px;
+    width: 600px;
+    height: 600px;
+    border: 3px solid brown;
+    margin: auto;
+}
 
 .figurky #dama-bila {
+    display: none;
+    visibility: hidden;
+}
+.figurky #dama-cerna {
+    display: none;
+    visibility: hidden;
+}
+
+.figurky #kral-cerna {
+    grid-column: 6;
+    grid-row: 6;
+}
+.figurky #kral-bila {
+    grid-column: 6;
+    grid-row: 8;
+}
+.figurky #vez-cerna {
     grid-column: 3;
+    grid-row: 8;
+}
+.figurky #vez-bila {
+   display: none;
+   visibility: hidden;
+}
+
+.figurky #strelec-bila {
+    display: none;
+    visibility: hidden;
+ }
+
+.figurky #strelec-cerna{
+    grid-column: 5;
+    grid-row: 1;
+}
+.figurky #pesec-cerna1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.figurky #pesec-cerna2 {
+    grid-column: 3;
+    grid-row: 3;
+}
+.figurky #pesec-cerna3 {
+    grid-column: 8;
     grid-row: 4;
+}
+
+.figurky #pesec-bila {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.figurky #kun-bila {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.figurky #kun-cerna {
+    display: none;
+    visibility: hidden;
 }
 
 .knoflik {
